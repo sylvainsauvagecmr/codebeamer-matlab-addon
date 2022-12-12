@@ -10,6 +10,8 @@ Replace the figure based UI with a AppDesigner based UI.
 The new UI shos the tracker content in a hierarchy view. The description and rationale are visible in the interface.
 Limitation: This is a prototype and not thoroughly tested.
 Limitation: It does not read more than 500 items.
+Limitation: The UI assumes a fairly default set of fields and may report errors for missing fields. Please customise to your needs.
+
 To use: 
   Setup: Run cbx=CB_SLREQ_GUI; to open the UI first, fill credentials
   Linking: Select a project, tracker and item. In Simulink model right click on component and choose "Requirement" / "Link to Codebeamer Item"

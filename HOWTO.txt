@@ -1,0 +1,17 @@
+How to use
+==========
+
+
+Clone or unzip the ycontent of the repository in a new folder.
+Add the folder and subfolder "intlad_codebeamer_rmi" to the path.
+Execute this command:
+cb=CB_SLREQ_GUI;
+
+A window appears. Add you credential and save to preference.
+
+Choose a project and tracker.
+
+Wait until is switches to the second tab (which could take a while if you have a lot of requirements).
+
+Select a requirement.
+Use Simulink requirement as you would for any other document type.
