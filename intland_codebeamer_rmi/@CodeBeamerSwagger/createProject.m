@@ -1,0 +1,9 @@
+% Create a new project (aka workspace)
+function r = createProject(this, name, description, category)
+data = struct('name', name, ...
+    'description', description, ...
+    'descFormat', 'Text', ...
+    'category',category);
+
+r = webwrite([this.url '/rest/project'], data, this.jsonOptions);
+end

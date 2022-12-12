@@ -1,0 +1,9 @@
+% Clone a project (aka workspace) and the trackers with identical rights (but will not copy requirements)
+function r = cloneProject(this, name, description, idsrc, category)
+data = struct('name', name, ...
+    'description', description, ...
+    'descFormat', 'Text', ...
+    'category',category);
+
+r = webwrite([this.url '/rest/project/' num2str(idsrc) '/clone'], data, this.jsonOptions);
+end
